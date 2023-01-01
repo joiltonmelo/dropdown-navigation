@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+font-family: 'Epilogue', sans-serif;
+color: hsl(0, 0%, 8%);
+}
+
+button {
+background-color: transparent;
+border: 0;
+}
+
+a {
+display:block;
+text-decoration: none;
+}
+
+a:hover {
+display:block;
+text-decoration: none;
+}
+
+body {
+background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+padding:0 1.25em;
+width: 100%;
+max-width:90em;
+margin: 0 auto;
+margin-top: 2em;
+}
+
+.logo {margin-right:1.5em;}
+
+header {
+align-items: center;
+padding: 1em 1.5em;
+}
+
+
+.register {
+border: 0.1em solid  hsl(0, 0%, 41%);
+/*padding: 0.7em 1.5em 0.6em 1.5em;*/
+border-radius: 0.8em;
+color: hsl(0, 0%, 41%);
+padding: 0.7em 1em;
+transition-duration: 0.4s;
+}
+
+.register:hover {
+border: 0.1em solid hsl(0, 0%, 8%);
+/*padding: 0.7em 1.5em 0.6em 1.5em;*/
+border-radius: 0.8em;
+color: hsl(0, 0%, 8%);
+}
+
+.btn a {
+padding: 0.9em 1.5em 0.9em 1.5em;
+border-radius: 0.8em;
+font-weight: bold;
+font-size: 1rem;
+color: #fff;
+background-color: hsl(0, 0%, 8%);
+border: 0.1em solid  hsl(0, 0%, 8%);
+transition-duration: 0.4s;
+}
+
+.btn:hover a {
+padding: 0.9em 1.5em 0.9em 1.5em;
+font-size: 1rem;
+border-radius: 0.8em;
+font-weight: bold;
+color: hsl(0, 0%, 8%);
+border: 0.1em solid  hsl(0, 0%, 8%);
+background-color: transparent;
+}
+
+
+
+h1 {
+font-size:5rem;
+line-height: 0.9em;
+}
+
+.s-hero {
+margin-top: 7em;
+} 
+
+.s-hero .container {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.img-hero-desktop {
+max-width: 25em;
+}
+
+.box-text {
+max-width: 40em;
+}
+
+.logos {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10em;
+}
+
+p {
+max-width: 25em;
+color: hsl(0, 0%, 41%);
+font-size: 1.2rem;
+line-height: 1.3em;
+margin-top: 2em;
+margin-bottom: 2.5em;
+}
+
+/*MENU NAV BAR */
+
+.icon-menu {
+margin-right: 0.6em;
+align-items: center;
+display: flex;
+}
+
+.topnav {
+ overflow: hidden;
+ align-items: center;
+ color: hsl(0, 0%, 41%);
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: hsl(0, 0%, 41%);
+    text-align: center;
+    padding: 0.9em 1em;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 1.1rem;    
+  border: none;
+  outline: none;
+  color: hsl(0, 0%, 41%);
+  padding: 0.9em 1em;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  min-width: 10em;
+  box-shadow: 0em 0.8em 1em 0em hsl(0, 0%, 80%);
+  z-index: 1;
+  border-radius: 1em;
+  padding:1.5em 0.5em 0.5em 0.5em;
+}
+
+.dropdown-content a {
+  float: none;
+  color: hsl(0, 0%, 41%);
+  padding-top: 0.2em;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  display: flex;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  color: hsl(0, 0%, 8%);
+}
+
+.dropdown-content a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
