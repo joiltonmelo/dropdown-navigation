@@ -206,6 +206,18 @@ color: hsl(0, 0%, 8%);
 display: block;
 }
 
+.menu-mobile {
+display: flex;
+align-items: center;
+gap: 2.6rem;
+}
+
+.menu {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2rem;
+}
 
 @media(max-width: 480px) {
 
